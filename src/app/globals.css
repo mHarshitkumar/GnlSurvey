@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: #f7f8fa;
+  color: #111827;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  text-rendering: geometricPrecision;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@keyframes drawer-in {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@layer components {
+  .survey-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 120px 120px 120px;
+    align-items: center;
+  }
+
+  .current-value-input {
+    width: 104px;
+  }
+
+  @media (max-width: 720px) {
+    .survey-grid {
+      grid-template-columns: minmax(0, 1fr) 74px 74px 74px;
+    }
+
+    .current-value-input {
+      width: 64px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .survey-grid {
+      grid-template-columns: minmax(0, 1fr) 58px 58px 58px;
+    }
+
+    .current-value-input {
+      width: 52px;
+    }
+  }
+}

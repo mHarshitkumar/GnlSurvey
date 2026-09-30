@@ -1,0 +1,55 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 531771,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3fntmmi971322.js",
+      ".next\\static\\chunks\\042no7zf506fm.js",
+      ".next\\static\\chunks\\30qbyxe1adwtw.js",
+      ".next\\static\\chunks\\0wj1_j3zgckxg.js",
+      ".next\\static\\chunks\\11jq0c2_zavac.js",
+      ".next\\static\\chunks\\1k__zuwipnzw8.js",
+      ".next\\static\\chunks\\3ewp08ebnb49j.js",
+      ".next\\static\\chunks\\turbopack-1mam_n-n2a4ax.js"
+    ]
+  },
+  {
+    "route": "/survey",
+    "firstLoadUncompressedJsBytes": 531771,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3fntmmi971322.js",
+      ".next\\static\\chunks\\042no7zf506fm.js",
+      ".next\\static\\chunks\\30qbyxe1adwtw.js",
+      ".next\\static\\chunks\\0wj1_j3zgckxg.js",
+      ".next\\static\\chunks\\11jq0c2_zavac.js",
+      ".next\\static\\chunks\\1k__zuwipnzw8.js",
+      ".next\\static\\chunks\\3ewp08ebnb49j.js",
+      ".next\\static\\chunks\\turbopack-1mam_n-n2a4ax.js"
+    ]
+  },
+  {
+    "route": "/labour-cost-insights",
+    "firstLoadUncompressedJsBytes": 475729,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3fntmmi971322.js",
+      ".next\\static\\chunks\\042no7zf506fm.js",
+      ".next\\static\\chunks\\0wj1_j3zgckxg.js",
+      ".next\\static\\chunks\\11jq0c2_zavac.js",
+      ".next\\static\\chunks\\1k__zuwipnzw8.js",
+      ".next\\static\\chunks\\3ewp08ebnb49j.js",
+      ".next\\static\\chunks\\turbopack-1mam_n-n2a4ax.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 453268,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3fntmmi971322.js",
+      ".next\\static\\chunks\\0wj1_j3zgckxg.js",
+      ".next\\static\\chunks\\11jq0c2_zavac.js",
+      ".next\\static\\chunks\\1k__zuwipnzw8.js",
+      ".next\\static\\chunks\\3ewp08ebnb49j.js",
+      ".next\\static\\chunks\\turbopack-1mam_n-n2a4ax.js"
+    ]
+  }
+]
